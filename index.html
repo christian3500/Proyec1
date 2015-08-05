@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+<link href="css/jquery.mobile.theme-1.4.5.min.css" rel="stylesheet" />
+<link href="css/jquery.mobile.structure-1.4.5.min.css" rel="stylesheet" />
+<script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+<script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Primera Práctica de interfaz CNH</title>
+<style type="text/css">
+p{
+	text-align:center;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<div data-role="page" id="principal" data-theme="b">
+    <div data-role="header">
+        <p>Encabezado de la aplicacion</p>
+    </div>
+            <div data-role="opciones de transiciones">
+                   <p>opciones de transiciones</p>
+                <ul data-role="listview">
+                   <li><a href="#segunda">Pagina 2 </a></li>
+                   <li>Pagina 2 </li>
+                </ul>
+            </div>
+
+       <div data-role="footer" data-position="fixed">
+          <p>pie de aplicacion</p>
+       </div>
+</div>
+       <div data-role="page" id="segunda" data-theme="a">
+          <div data-role="header">
+                <a href="#principal" data-role="button">atras</a>
+                <p>Encabezado segunda ventana</p>
+          </div>
+          <div data-role="content">
+           <p>contenido pagina segunda ventana</p>
+          </div>
+                     <div data-role="footer" data-position="fixed">
+                           <p>pie pagina segunda ventana</p>
+                     </div>
+
+       </div>
+</body>
+</html>
